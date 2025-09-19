@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <form id="postBtn" action="">
+        <input required id="lastName" type="text" placeholder="Name">
+        <input required id="firstName" type="number" placeholder="Number">
+
+        <div class="checkbox">
+            <span class="span">isMarried</span>
+            <input id="isMarried" class="span" type="checkbox">
+            <span class="span">Gender</span>
+            <input id="gender" class="span" type="checkbox">
+        </div>
+
+        <button type="submit">Add Contact</button>
+    </form>
+
+    <ul id="ul">
+
+    </ul>
+
+    <div id="modal">
+        <input id="updateName" type="text">
+        <input id="updateNumber" type="number">
+        <label for="">
+            IsMarried
+            <input type="checkbox" id="updateMarried">
+        </label>
+        <label for="">
+            Gender
+            <input type="checkbox" id="updateGender">
+        </label>
+        <button id="updateBtn">update</button>
+
+        <button id="cancel">Cancel</button>
+    </div>
+
+    <script src="./data.js"></script>
+</body>
+
+</html>
